@@ -44,7 +44,7 @@ class Donation_Creator extends PageCarton_Widget
             //  Code that runs the widget goes here...
 
             //  Output demo content to screen
-            $this->setViewContent( self::__( '<h1>Donate to {Organization Name}</h1><br>' ) ); 
+            $this->setViewContent( self::__( '<h1>Donation Form</h1><br>' ) ); 
 
             $form = new Ayoola_Form();
 
